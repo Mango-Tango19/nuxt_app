@@ -1,7 +1,6 @@
 <template>
     <div class="single-tag">
         <p>{{ tagDesc.title }} : {{ tagDesc.value }}</p>
-        <!-- <h4>Hello</h4> -->
     </div>
 </template> 
 

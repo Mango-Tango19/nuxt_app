@@ -1,4 +1,6 @@
 export const state = () => ({
+    myOrders: [
+    ],
     products: [
         {
             title: "Мультикарта Fitness House",
@@ -131,5 +133,18 @@ export const state = () => ({
     ]
 
 })
+
+export const getters = {
+    getProductByAlias: (state) => (alias) => {
+        return state.products.find(product => product.alias === alias)
+    }
+}
+
+export const mutations = {
+    addItem (state, alias) {
+        let item = state.products.find(product => product.alias === alias)
+        state.myOrders.push(item)
+    }
+}
 
 

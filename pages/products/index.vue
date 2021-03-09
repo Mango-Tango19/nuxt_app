@@ -1,7 +1,6 @@
 <template>
 <div>
-    <Nav />
-        <div class="container">
+    <div class="container">
     <CardSection 
     :cardSection="cardsInfo"
     />

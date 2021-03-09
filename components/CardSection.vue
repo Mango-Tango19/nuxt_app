@@ -28,6 +28,7 @@ export default {
     margin-bottom: 1.5rem;
 }
 .cards-container {
+    padding: 2rem 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

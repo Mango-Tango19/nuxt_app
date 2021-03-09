@@ -1,25 +1,30 @@
 <template>
     <div class="Hero container">
         <div class="text-container">
-            <h1 class="header">Fined Your Fitness card</h1>
-            <p class="snippet">Esse et sit voluptate laborum eius omnis</p>
-            <button class="button btn">Start Looking</button>
+            <h1 class="header">Фитнес-карта для тебя</h1>
+            <p class="snippet">Подбери карту по своим параментрам в нашем финтес-клубе</p>
+            <button @click="scroll" class="button btn">Начать</button>
         </div>
-        <img class="image" src="~assets/svg/rex.svg" alt="fire extinguisher">
+        <img class="image" src="~assets/svg/dumbbell.svg" alt="fire extinguisher">
     </div>
 </template>
 
 <script>
 
     export default {
+        methods: {
+            //////
+            scroll() {
 
+            }
+        }
     }
 </script>
 
 <style scoped>
     .Hero {
         display: flex;
-        padding: 5rem 0;
+        padding: 2rem 0;
         align-items: flex-start;
         justify-content: space-between;
         flex-direction: row;

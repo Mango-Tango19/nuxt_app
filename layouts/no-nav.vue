@@ -1,11 +1,14 @@
 <template>
-  <div>
-    <Nav />
+  <div class="container">
+    <nuxt-link to="/">Go Back</nuxt-link>
     <Nuxt />
   </div>
 </template>
 
 <style>
+.container {
+    padding: 5rem 0;
+}
 html {
   font-family:
     'Source Sans Pro',
