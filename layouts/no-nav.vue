@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <nuxt-link to="/">Go Back</nuxt-link>
+    <nuxt-link to="/">Назад</nuxt-link>
     <Nuxt />
   </div>
 </template>
